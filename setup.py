@@ -5,7 +5,7 @@ with open("README.md", "r") as f
 
 setuptools.setup(
     name="fncore",
-    version="2020.09",
+    version="2020.01",
     author="JT Wolohan",
     author_email="jwolohan@gmail.com",
     description="Fuctional programming core library.",
