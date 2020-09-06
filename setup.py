@@ -5,7 +5,7 @@ with open("README.md", "r") as f
 
 setuptools.setup(
     name="fncore",
-    version="2020.9",
+    version="2020.09",
     author="JT Wolohan",
     author_email="jwolohan@gmail.com",
     description="Fuctional programming core library.",
@@ -17,6 +17,10 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+    ],
+    install_requires=[
+       "toolz",
+       "more-itertools"
     ],
     python_requires='>=3.6',
 )
